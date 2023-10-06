@@ -25,8 +25,8 @@ struct Home: View {
     var body: some View {
         VStack(spacing: 0){
             HStack{
-                //                Text("ADA")
-                //                    .font(.largeTitle)
+//                               Text("ADA")
+//                                   .font(.largeTitle)
                 Spacer()
                 Button{
                 }label: {
@@ -41,6 +41,7 @@ struct Home: View {
                     
                 }label: {
                     Image(systemName: "plus")
+                        .font(.title)
                 }
             }
             
